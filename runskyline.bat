@@ -1,2 +1,2 @@
-java -jar skyline.jar -t input.txt
+java -jar skyline.jar -t input.txt output.txt
 PAUSE

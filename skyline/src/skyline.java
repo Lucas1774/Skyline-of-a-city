@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 import java.io.File;
 
 public class skyline{
+    private static BufferedReader reader;
     public static void main (String[] args) throws IOException {
         City mycity = new City();
         int enablelog = 0;
@@ -63,7 +64,7 @@ public class skyline{
     
     static City converttoCity (String path) throws IOException{
         City city = new City();
-        BufferedReader reader = new BufferedReader (new FileReader(path));
+        reader = new BufferedReader (new FileReader(path));
         String line;
         
         while ((line = reader.readLine()) != null){
