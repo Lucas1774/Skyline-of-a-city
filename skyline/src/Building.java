@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Building{
     private int x1;
     private int x2;
